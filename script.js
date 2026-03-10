@@ -28,3 +28,12 @@ function resetCount() {
 function saveCount() {
     localStorage.setItem("count", count);
 }
+
+// membuat function untuk meengambil nilai count dari local storage
+function loadCount() {
+    let saved = localStorage.getItem("count");
+    if (saved !== null) {
+        count = Number(saved);
+    }
+    updateCount();
+}
