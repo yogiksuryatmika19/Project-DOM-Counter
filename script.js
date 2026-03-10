@@ -1,6 +1,13 @@
+// melakukan inisialisasi variabel count dengan nilai 0
 let count = 0;
 
-// melakukan selector terhadap element p dengan id="count"
+// membuat function untuk menampilkan nilai count
 function updateCount() {
     document.getElementById("count").innerHTML = count;
+}
+
+// membuat function untuk menambah nilai count
+function increaseCount() {
+    count++;
+    updateCount();
 }
