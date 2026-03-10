@@ -17,3 +17,9 @@ function decreaseCount() {
     count--;
     updateCount();
 }
+
+// membuat function untuk reset nilai count ke 0
+function resetCount() {
+    count = 0;
+    updateCount();
+}
