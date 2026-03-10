@@ -11,3 +11,9 @@ function increaseCount() {
     count++;
     updateCount();
 }
+
+// membuat function untuk mengurangi nilai count
+function decreaseCount() {
+    count--;
+    updateCount();
+}
