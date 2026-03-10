@@ -23,3 +23,8 @@ function resetCount() {
     count = 0;
     updateCount();
 }
+
+// membuat function untuk menyimpan nilai count ke local Storage
+function saveCount() {
+    localStorage.setItem("count", count);
+}
